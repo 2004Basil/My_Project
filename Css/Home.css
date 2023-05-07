@@ -1,0 +1,171 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin:20px 50px;
+    height: 1500px
+    
+}
+.contenar{
+    margin:20px 70px
+
+}
+
+/* start for navbar */
+.head{
+    display: flex ;
+    justify-content: flex-end;
+    margin:20px 70px
+
+}
+.head .head_2{
+    display: flex;
+}
+.head .link li{
+    display: inline-block;
+    margin-right:  25px;
+    list-style: none;
+}
+.head  li a{
+    text-decoration: none;
+    color: black;
+}
+/* end for navbar */
+
+/* start for div_1 */
+.div_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 80px 90px;
+}
+.div_1 .element{
+
+    display:flexbox;
+    width : 300px;
+}
+.div_1 .element .but{
+    padding: 8px 15px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+}
+
+.div_1 .element p{
+    width:500px ;
+}
+/* end for div_1*/
+
+/* start for div_2*/
+.div_2{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #EDF7FA;
+  width: 100%;
+
+
+}
+.div_2 .head_2 {
+    display: flex;
+    margin: 90px 20% 0 18%;
+    justify-content: space-between;
+
+}
+.div_2 .head_2 .words{
+    display: inline-block;
+}
+
+.div_2 .all_mor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+
+
+}
+.div_2 .all_mor .mrbaa1{
+    display: flex;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    margin:0 0 10px 20px;
+   background: #FFFFFF;
+
+}
+
+/* end for div_2*/
+
+/* stary for div_3*/
+.div_3{
+    margin:50px 70px
+    
+
+}
+.div_3 h3{
+    margin:20px;
+}
+
+.div_3 .all{
+    display: flex;
+    position: relative;
+    height: 200px;
+    width:950px;
+}
+.div_3 .all .describtion{
+    width:500PX;
+    margin: 0px 10px;
+}
+.div_3 .all .but_1{
+    padding: 6px;
+    width: 70px;
+    border-radius:calc(50px/2);
+  
+}
+.div_3 .all .link {
+    position:absolute;
+    top: 45px;
+    left: 320px;
+}
+
+.div_3 .all .link a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* end for div_3*/
+
+/* start for div_3*/
+
+.icon{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #21243D;
+ }
+ .icon i{
+     padding:0 16px;
+     padding-top: 50px;
+ }
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 40px;
+ }
+ .footer p{
+   padding-right: 5px;
+   font-size: 14px;
+ }
+ 
+/* end for div_3*/
+
+
+
+
+
+

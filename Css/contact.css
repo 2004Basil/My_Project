@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin:20px 50px;
+    
+}
+.contenar{
+    margin:20px 70px
+
+}
+
+/* start for navbar */
+.head{
+    display: flex ;
+    justify-content: flex-end;
+    margin:20px 70px
+
+}
+.head .link li{
+    display: inline-block;
+    margin-right:  25px;
+    list-style: none;
+}
+.head  li a{
+    text-decoration: none;
+    color: black;
+}
+/* start for div_1 */
+
+/* stary for div_3*/
+.div_3{
+    margin:50px 70px
+    
+
+}
+.div_3 h3{
+    margin:20px;
+}
+
+.div_3 .all{
+    display: flex;
+    position: relative;
+    height: 200px;
+    width:950px;
+}
+.div_3 .all .describtion{
+    width:500PX;
+    margin: 0px 10px;
+}
+.div_3 .all .but_1{
+    padding: 6px;
+    width: 70px;
+    border-radius:calc(50px/2);
+  
+}
+.div_3 .all .link {
+    position:absolute;
+    top: 45px;
+    left: 320px;
+}
+
+.div_3 .all .link a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* end for div_3*/
+.icon{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: #21243D;
+ }
+ .icon i{
+     padding:0 16px;
+     padding-top: 50px;
+ }
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     padding-bottom: 40px;
+ }
+ .footer p{
+   padding-right: 5px;
+   font-size: 14px;
+ }
+ 
